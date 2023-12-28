@@ -47,11 +47,11 @@ public class AmazonAutomation {
         }
 
         for (Map.Entry<Integer, String> entry : dataMap.entrySet()) {
-            System.out.println(entry.getKey() + ":" + entry.getValue());
+            System.out.println(entry.getKey() + " : " + entry.getValue());
         }
 
         for (String element : withoutPriceData) {
-            System.out.println(0 + ":" + element);
+            System.out.println(0 + " : " + element);
         }
     }
 
